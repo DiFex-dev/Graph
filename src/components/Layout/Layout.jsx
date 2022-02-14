@@ -36,7 +36,7 @@ const Layout = ({ children, title, description, image }) => {
       <Seo title={title} description={description} image={image} />
       <PreloadStatic />
       <div css={styles}>
-        <main>{children}</main>
+        <main className="main">{children}</main>
       </div>
     </>
   );

@@ -11,31 +11,192 @@ module.exports = {
     subtitle: 'Subtitle',
   },
   data: {
-    bars: [39, 33, 37, 42, 42, 63, 69, {
-      value: 59,
-      points: ['Induction + generator', 'Amorphous silicon', 'Blade + wind', 'Rotation + speed'],
-      barId: '59-1'
-    }, 61, 73, 81, 94, {
-      value: 89,
-      points: ['Amorphous silicon', 'Induction + generator', 'Rotation + speed', 'Blade + wind'],
-      barId: '89-2'
-    }, 76, 79, 58, 33, 46, 54, 69, 59, {
-      value: 32,
-      points: ['Blade + wind', 'Induction + generator', 'Rotation + speed'],
-      barId: '32-3'
-    }, 29, 18, 29, 27, 36, {
-      value: 89,
-      points: ['Induction + generator', 'Rotation + speed', 'Amorphous silicon', 'Blade + wind'],
-      barId: '89-4'
-    }, 65, 61, 54, 46, {
-      value: 54,
-      points: ['Induction + generator', 'Amorphous silicon', 'Rotation + speed'],
-      barId: '54-5'
-    }, 59, 23, 18, 29, 34, 37, 45, 59, {
-      value: 78,
-      points: ['Induction + generator', 'Rotation + speed', 'Amorphous silicon'],
-      barId: '78-6'
-    }, 63],},
+    bars: [
+      {
+        value: 33,
+      },
+      {
+        value: 37,
+      },
+      {
+        value: 42,
+      },
+      {
+        value: 69,
+      },
+      {
+        value: 59,
+        points: ['Induction + generator', 'Amorphous silicon', 'Blade + wind', 'Rotation + speed'],
+        pointsId: 'firstPoint',
+        barId: 'first',
+      },
+      {
+        value: 61,
+      },
+      {
+        value: 73,
+      },
+      {
+        value: 94,
+      },
+      {
+        value: 89,
+        points: ['Amorphous silicon', 'Induction + generator', 'Rotation + speed', 'Blade + wind'],
+        pointsId: 'secondPoint',
+        barId: 'second',
+      },
+      {
+        value: 76,
+      },
+      {
+        value: 79,
+      },
+      {
+        value: 33,
+      },
+      {
+        value: 46,
+      },
+      {
+        value: 54,
+      },
+      {
+        value: 32,
+        points: ['Blade + wind', 'Induction + generator', 'Rotation + speed'],
+        pointsId: 'thirdPoint',
+        barId: 'third',
+      },
+      {
+        value: 29,
+      },
+      {
+        value: 18,
+      },
+      {
+        value: 27,
+      },
+      {
+        value: 89,
+        points: ['Induction + generator', 'Rotation + speed', 'Amorphous silicon', 'Blade + wind'],
+        pointsId: 'fourthPoint',
+        barId: 'fourth',
+      },
+      {
+        value: 65,
+      },
+      {
+        value: 61,
+      },
+      {
+        value: 54,
+        points: ['Induction + generator', 'Amorphous silicon', 'Rotation + speed'],
+        pointsId: 'fifthPoint',
+        barId: 'fifth',
+      },
+      {
+        value: 59,
+      },
+      {
+        value: 23,
+      },
+      {
+        value: 18,
+      },
+      {
+        value: 29,
+      },
+      {
+        value: 34,
+      },
+      {
+        value: 59,
+      },
+      {
+        value: 60,
+      },
+      {
+        value: 63,
+      },
+    ],
+    lineX: [
+      {
+        lineXHatch: 0,
+        lineXInfo: '1960',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '1965',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '1970',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '1975',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '1980',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '1985',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '1990',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '1995',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '2000',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '2005',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '2010',
+      },
+      {
+        lineXHatch: 0,
+        lineXInfo: '2015',
+      },
+      {
+        lineXHatch: 0,
+      },
+    ],
+    lineY: [
+      {
+        lineYHatch: 0,
+      },
+      {
+        lineYHatch: 0,
+        lineYInfo: '1.500.000',
+      },
+      {
+        lineYHatch: 0,
+        lineYInfo: '1.000.000',
+      },
+      {
+        lineYHatch: 0,
+        lineYInfo: '500.000',
+      },
+      {
+        lineYHatch: 0,
+        lineYInfo: '0',
+      },
+    ],
+    lineName: {
+      lineXName: 'Year',
+      lineYName: 'Profit',
+    },
+  },
 
   text: {
     first: `First text`,
