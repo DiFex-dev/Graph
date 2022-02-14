@@ -30,6 +30,26 @@ const createPages = async ({ actions, graphql }) => {
               title
               subtitle
             }
+            data {
+              bars {
+                value
+                points
+                pointsId
+                barId
+              }
+              lineX {
+                lineXHatch
+                lineXInfo
+              }
+              lineY {
+                lineYHatch
+                lineYInfo
+              }
+              lineName {
+                lineXName
+                lineYName
+              }
+            }
             text {
               first
             }
